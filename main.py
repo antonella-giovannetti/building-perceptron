@@ -2,7 +2,7 @@ from prog import load_data
 from perceptron_2 import PerceptronModel
 
 def main():
-    X_train, X_test, y_train, y_test = load_data()
+    X_train, X_test, y_train, y_test = load_data("X_pca.csv")
     perceptron = PerceptronModel(max_iter=500, random_state=42)
 
     perceptron.fit(X_train, y_train)
