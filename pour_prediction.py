@@ -15,7 +15,6 @@ data['diagnosis'] = data['diagnosis'].map({'M': 1, 'B': 0})
 duplicates = data.duplicated()
 print(f"Nombre de doublons : {duplicates.sum()}")
 
-
 missing_values = data.isnull().sum()
 print("Valeurs manquantes par colonne :")
 print(missing_values[missing_values > 0])

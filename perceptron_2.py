@@ -14,7 +14,6 @@ class PerceptronModel:# perceptron avec sklearn
         return self.model.predict(X_test)
 
     def evale(self, y_test, y_pred):#évaluation du modèle
-
         accuracy = accuracy_score(y_test, y_pred)
         report = classification_report(y_test, y_pred)
         cm = confusion_matrix(y_test, y_pred)
