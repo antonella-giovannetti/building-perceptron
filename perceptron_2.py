@@ -2,7 +2,7 @@ from sklearn.linear_model import Perceptron
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 
-class PerceptronModel:# perceptron avec sklearn basé sur les modèles d'entrainement
+class PerceptronModel:# perceptron avec sklearn
 
     def __init__(self, max_iter=500, random_state=42):
         self.model = Perceptron(max_iter=max_iter, random_state=random_state)
