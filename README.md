@@ -1,5 +1,4 @@
 # building-perceptron
-# **Classification des données avec Perceptron**
 
 ## **Contexte du Projet**
 Ce projet explore la classification binaire des tumeurs (bénignes ou malignes) en utilisant un modèle de perceptron implémenté à l'aide de la bibliothèque scikit-learn. Le pipeline complet comprend le prétraitement des données, la réduction de la dimensionnalité et l'évaluation des performances du modèle.
