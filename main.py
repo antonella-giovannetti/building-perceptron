@@ -1,4 +1,4 @@
-from perceptron_2 import PerceptronModel
+from perceptron import PerceptronModel
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -27,7 +27,7 @@ def main():
     data = pd.read_csv("data/bcw_data.csv")
     X_pca, y = data_pre_processing(data)
     X_train, X_test, y_train, y_test = train_test_split(X_pca, y, test_size=0.2, random_state=42)
-    perceptron = PerceptronModel(max_iter=500, random_state=42)
+    perceptron = PerceptronModel(max_iter=20, random_state=42)
     perceptron.fit(X_train, y_train)
     y_pred = perceptron.pred(X_test)
     accuracy, report, cm = perceptron.evale(y_test, y_pred)
