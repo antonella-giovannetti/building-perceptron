@@ -20,6 +20,7 @@ L'analyse exploratoire a permis de mieux comprendre la structure des données :
 - **Statistiques Descriptives** : Analyse des distributions et des valeurs aberrantes.
 - **Corrélations** : Étude des relations entre les variables pour identifier celles qui influencent le plus la cible.
 - **Visualisations** :
+
   - Histogrammes et boxplots pour analyser la distribution des variables.
   - Matrices de corrélation pour observer les liens entre les caractéristiques.
 
@@ -57,6 +58,7 @@ Le modèle a atteint une précision moyenne de **95,6 %**, avec une bonne distin
 
 ## **Conclusion**
 Ce projet illustre comment un perceptron peut être utilisé pour une classification efficace lorsqu'il est combiné avec des techniques appropriées de prétraitement et de réduction de dimensionnalité. Bien que les perceptrons soient des modèles simples, ils peuvent fournir des performances impressionnantes dans des scénarios bien structurés. Une exploration future pourrait inclure l'utilisation de modèles non linéaires ou de réseaux de neurones pour améliorer davantage les résultats.
+
 
 ---
 
